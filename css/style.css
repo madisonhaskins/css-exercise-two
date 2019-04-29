@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 25px;
 }
 
 nav {
@@ -8,6 +9,7 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  font-size: 2em;
 }
 
 .logo {
@@ -35,11 +37,13 @@ nav {
 ul {
   list-style-type: none;
   float: right;
+  font-size: 1em;
 }
 
 li {
   float: right;
   padding: 30px;
+  font-size: 1em;
 }
 
 article {
@@ -49,4 +53,27 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+  font-size: 1em;
+}
+
+.title{
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.subheading{
+  font-size: 1.5em;
+  line-height: 125%;
+}
+
+.author{
+  font-size: 1.25em;
+  font-style: italic;
+  line-height: 125%;
+}
+
+.story-text{
+  font-size: 100%;
+  line-height: 105%;
 }
