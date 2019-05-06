@@ -38,12 +38,21 @@ ul {
   list-style-type: none;
   float: right;
   font-size: 1em;
+
 }
 
 li {
   float: right;
   padding: 30px;
   font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
 }
 
 article {
@@ -75,5 +84,10 @@ article {
 
 .story-text{
   font-size: 100%;
-  line-height: 105%;
+  line-height: 1.5em;
+  margin-top: 2em;
+}
+
+figcaption {
+  font-size: .5em;
 }
